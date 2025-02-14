@@ -5,6 +5,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+@media (max-width: 768px) {
+    .container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flower {
+        margin-right: 0;
+        margin-bottom: 20%;
+        transform: scale(0.8);
+    }
+
+    ul {
+        top: -10%;
+        margin-left: 0;
+        gap: 15px;
+    }
+
+    ul li a {
+        font-size: 2em;
+    }
+
+    .polaroid-camera {
+        transform: scale(0.7);
+    }
+}
 
 :root{
     --color-bg: linear-gradient(to top,#010329,#000005);
